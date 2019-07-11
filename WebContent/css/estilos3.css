@@ -1,0 +1,48 @@
+body{
+	
+}
+
+#inicio{
+	margin-top: 20px;
+	text-align: center;
+	font: 50px Impact;	
+	color: #ffff00;
+}
+
+#txt{
+	text-align: center;
+	font: 30px impact;
+	color: #0df500;
+	
+}
+#CardNot1{
+	margin-top: 10px;	
+	margin-left: 50px;
+}
+
+#CardNot2{
+	margin-top: -254px;
+	margin-left: 660px;
+}
+
+#CardNot3{
+	margin-top: 20px;
+	margin-left: -2px;
+	
+}
+
+#CardNot4{
+	margin-left: -10px;
+}
+
+#CardNot5{
+	margin-left: -10px;
+}
+
+#footer{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	background-color: gray;
+	
+}

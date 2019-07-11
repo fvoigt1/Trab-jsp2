@@ -1,0 +1,1276 @@
+/*Padronizar*/
+*{
+	font: 13px Times New Roman;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Página inicial*/
+.formularioLogin{
+	width: 400px;
+	margin: 10px auto;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+}
+.formularioLogin input[type="email"],
+.formularioLogin input[type="password"]{
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin: 4px;
+	padding: 5px;
+}
+.formularioLogin input[type="submit"]{
+	border: solid 1px #141414;
+	border-radius: 5px;
+	margin: 4px;
+	padding: 5px 20px;
+	background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(51,51,51,1) 100%);
+}
+
+
+
+
+/*Mensagem*/
+#mensagem{
+	background-color: #000;
+	color: #fff;
+	padding: 15px;
+}
+.topoflu{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topoflu h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topoflu h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topoflu h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topoflu h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topoflu p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topoflu p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topoflu h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topoflu .image {
+   content:url(../imagens/Fluminense.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topoflu a{
+	color: #fff;
+	margin-left: 5px;
+	
+	
+}
+.fundoinicial {
+ 	background-image: url("../imagens/fundosite2.jpg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 1500px;
+ 	
+}
+.jogos2{
+	overflow: hidden;
+	width: 45%;
+	height: 50px;
+	background: #fff;
+	margin-left: 50px;
+	margin-top: 600px;
+	border-radius: 15px;
+	border: solid 1px;
+}
+.jogos2 th{
+	color: #000;
+	font: 20px Times New Roman;
+	font-weight: bold;
+}
+.jogos2 td{
+	color: #000;
+	font: 18px Times New Roman;
+}
+.geral h3{
+	font-weight: bold;
+	margin-left: 60px;
+	margin-top: 600px;
+	color: #000;
+}
+.jogos2 th, td{
+	border: 1px solid black;
+	padding: 15px;
+	text-align: left;
+}
+
+.jogFla{
+	overflow: hidden;
+	width: 45%;
+	height: 50px;
+	background: #fff;
+	margin-left: 50px;
+	margin-top: 200px;
+	border-radius: 15px;
+	border: solid 1px;
+}
+.geral{
+	background-color: #fff;
+	overflow: hidden;
+	width: 70%;
+	height: 1200px;
+	margin-left: 15%;
+	margin-top: 5px;
+}
+.geral .image {
+   content:url(../imagens/campo.PNG);
+   width: 542px;
+   height: 702px;
+   margin-left: 10px;
+   margin-top: 5px;
+   
+}
+.estatisticas{
+	overflow: hidden;
+	margin-top: -1195px;
+	margin-left: 800px;
+	width: 377px;
+	height: 430px;
+	border: solid 1px;
+	border-radius: 15px;
+}
+.estatisticas h1{
+	color: #000;
+	font: 30px Times New Roman;
+	font-weight: bold;
+	margin-left: 115px;
+}
+.foto{
+	border: solid 1px;
+	width: 100px;
+	height: 120px;
+	margin-left: 140px;
+}
+
+.estatisticas h2:nth-child(2){
+	color: #000;
+	margin-top: 15px;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.estatisticas h2:nth-child(4){
+	color: #000;
+	margin-top: 15px;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.estatisticas h2:nth-child(5){
+	color: #000;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.estatisticas h2:nth-child(6){
+	color: #000;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.estatisticas h2:nth-child(7){
+	color: #000;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.estatisticas h2:nth-child(8){
+	color: #000;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.estatisticas h2:nth-child(9){
+	color: #000;
+	margin-left: 10px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.nome{
+	background-color: #fff;
+	height: 20px;
+}
+.pos{
+	background-color: #fff;
+	height: 20px;
+}
+.padrao{
+	height: 20px;
+	background-color: #fff;
+	width: 30px;
+}
+.teste{
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+}
+.dropdown-menu img{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+}
+.patro{
+	margin-top: 270px;
+	margin-left: 800px;
+	width: 377px;
+	height: 430px;
+	border: solid 1px;
+	border-radius: 15px;
+}
+.patro h2:nth-child(1) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h3:nth-child(2) {
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h2:nth-child(3) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h3:nth-child(4) {
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h2:nth-child(5) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-left: 205px;
+	margin-top: -59px;
+}
+.patro h3:nth-child(6) {
+	color: #000;
+	font: 19px Times New Roman;
+	margin-left: 204px;
+	margin-top: 5px;
+}
+.patro h2:nth-child(7) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h2:nth-child(9) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+	
+}
+.patro h2:nth-child(14) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h3:nth-child(15) {
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h2:nth-child(16) {
+	color: #0080ff;
+	font: 20px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.patro h3:nth-child(17) {
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.verdeescuro{
+	background: linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 100%,rgba(179,190,173,1) 100%); 
+}
+.verdeclaro{
+	background-color: #fff;
+}
+.comissao{
+	margin-top: -680px;
+	margin-left: 837px;
+	border: solid 1px;
+	border-radius: 15px;
+	width: 300px;
+}
+.comissao h2:nth-child(1){
+	color: #000;
+	font: 21px Times New Roman;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.comissao h3:nth-child(2){
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.comissao h2:nth-child(3){
+	color: #000;
+	font: 21px Times New Roman;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.comissao h3:nth-child(4){
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.comissao h3:nth-child(5){
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.comissao h3:nth-child(6){
+	color: #000;
+	font: 19px Times New Roman;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+/*Parte do administradores*/
+
+.topoadmin{
+	background-color: #000;
+	width: 100%;
+	height: 40px;
+}
+.topoadmin h1{
+	font: 30px Times New Roman;
+	font-weight: bold;
+	color: #fff;
+}
+.formularioregistro{
+	width: 400px;
+	margin: 10px auto;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+}
+.formularioregistro input[type="text"]{
+	width: 380px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin: 4px;
+	padding: 5px;
+}
+.formularioregistro input[type="submit"]{
+	border: solid 1px #141414;
+	border-radius: 5px;
+	margin: 4px;
+	padding: 5px 38px;
+	background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(51,51,51,1) 100%);
+}
+.jog{
+	font: 32px Times New Roman;
+	font-weight: bold;
+	margin-left: 41%;
+	margin-top: 20px;
+}
+.tabelaJog{
+	overflow: hidden;
+	width: 45%;
+	height: 50px;
+	margin-left: 22%;
+	margin-top: 20px;
+	border-radius: 15px;
+	border: solid 1px;
+}
+.tabelaJog th{
+	color: #000;
+	font: 20px Times New Roman;
+	font-weight: bold;
+}
+.tabelaJog td{
+	color: #000;
+	font: 18px Times New Roman;
+}
+.tabelaJog th, td{
+	border: 1px solid black;
+	padding: 15px;
+	text-align: left;
+}
+.topofla{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background: linear-gradient(to bottom, rgba(204,0,0,1) 0%,rgba(204,0,0,1) 100%);
+	margin-left: 15%;
+	margin-top: 60px;
+}
+.topofla h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topofla h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topofla h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topofla h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topofla p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topofla p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topofla h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+.topofla .image {
+   content:url(../imagens/flamengo.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topofla a{
+	color: #fff;
+	margin-left: 5px;
+}
+.unifla{
+	margin-left: 7px;
+}
+.topofla #elenco{
+	margin-top: -26px;
+}
+.topofla #escalacao{
+	margin-top: -26px;
+}
+.topocor{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background: #808080;
+	margin-left: 15%;
+	margin-top: 60px;
+}
+.topocor h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topocor h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topocor h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topocor h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topocor p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topocor p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topocor h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+.topocor .image {
+   content:url(../imagens/corinthians.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topocor a{
+	color: #fff;
+	margin-left: 5px;
+}
+#elenco{
+	margin-left: 180px;
+}
+.toposao{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #AD1814;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.toposao h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.toposao h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.toposao h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.toposao h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.toposao p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.toposao p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.toposao h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.toposao .image {
+   content:url(../imagens/saoupaulo.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.toposao a{
+	color: #fff;
+	margin-left: 5px;
+}
+
+.topopalm{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #347C17;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topopalm h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topopalm h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topopalm h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topopalm h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topopalm p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topopalm p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topopalm h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topopalm .image {
+   content:url(../imagens/palmeiras.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topopalm a{
+	color: #fff;
+	margin-left: 5px;
+}
+
+.toposan{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #C0C0C0;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.toposan h1{
+	color: #000;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.toposan h6{
+	color: #000;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.toposan h6:nth-child(2){
+	color: #000;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.toposan h5{
+	color: #000;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.toposan p{
+	color: #000;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.toposan p:nth-last-child(2){
+	color: #000;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.toposan h4{
+	color: #000;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.toposan .image {
+   content:url(../imagens/santos.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.toposan a{
+	color: #000;
+	margin-left: 5px;
+}
+.topobot{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #000;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topobot h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topobot h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topobot h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topobot h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topobot p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topobot p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topobot h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topobot .image {
+   content:url(../imagens/botafogo.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topobot a{
+	color: #fff;
+	margin-left: 5px;
+}
+
+.topovas{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #000;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topovas h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topovas h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topovas h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topovas h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topovas p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topovas p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topovas h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topovas .image {
+   content:url(../imagens/vasco.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topovas a{
+	color: #fff;
+	margin-left: 5px;
+}
+
+.topoint{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #AD1814;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topoint h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topoint h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topoint h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topoint h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topoint p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topoint p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topoint h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topoint .image {
+   content:url(../imagens/inter.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topogre{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #4682B4;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topogre h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topogre h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topogre h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topogre h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topogre p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topogre p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topogre h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topogre .image {
+   content:url(../imagens/gremio.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topogre a{
+	color: #fff;
+	margin-left: 5px;
+}
+.topocru{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #273E7C;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topocru h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topocru h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topocru h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topocru h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topocru p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topocru p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topocru h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topocru .image {
+   content:url(../imagens/cruzeiro.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topocru a{
+	color: #fff;
+	margin-left: 5px;
+	
+	
+}
+.topoatle{
+	overflow: hidden;
+	width: 70%;
+	height: 180px;
+	background-color: #000;
+	margin-left: 15%;
+	margin-top: 60px;
+	
+}
+
+.topoatle h1{
+	color: #fff;
+	font: 32px 16px Times New Roman;
+	font-weight: bold;
+	margin-left: 178px;
+	margin-top: -180px;
+}
+.topoatle h6{
+	color: #fff;
+	margin-left: 180px;
+	font: 18px Times New Roman;
+}
+.topoatle h6:nth-child(2){
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 0px;
+	font: 18px Times New Roman;
+}
+.topoatle h5{
+	color: #fff;
+	margin-left: 680px;
+	margin-top: -115px;
+	font: 22px Times New Roman;
+	font-weight: bold;
+}
+.topoatle p{
+	color: #fff;
+	margin-left: 600px;
+	margin-top: 20px;
+	font: 18px Times New Roman;
+}
+.topoatle p:nth-last-child(2){
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 600px;
+	font: 18px Times New Roman;
+}
+
+.topoatle h4{
+	color: #fff;
+	margin-left: 180px;
+	margin-top: 5px;
+	font: 18px Times New Roman;
+}
+
+
+
+.topoatle .image {
+   content:url(../imagens/atleticomg.png);
+   width: 152px;
+   height: 176px;
+   margin-left: 10px;
+   margin-top: 5px;
+}
+
+.topoatle a{
+	color: #fff;
+	margin-left: 5px;
+	
+	
+}
+.geral img{
+	width: 60px;
+	height: 70px;
+	margin-top: 0px;
+}
+.goleiro{
+	margin-top: -100px;
+	margin-left: 252px;
+}
+.zagueiro1{
+	margin-top: -160px;
+	margin-left: 340px;
+}
+.zagueiro2{
+	margin-top: -70px;
+	margin-left: 165px;
+}
+.laterale{
+	margin-top: -90px;
+	margin-left: 40px;
+}
+.laterald{
+	margin-top: -70px;
+	margin-left: 465px;
+}
+.volante{
+	margin-top: -180px;
+	margin-left: 250px;
+}
+.meio1{
+	margin-top: -230px;
+	margin-left: 320px;
+}
+.meio2{
+	margin-top: -70px;
+	margin-left: 180px;
+}
+.pontae{
+	margin-top: -180px;
+	margin-left: 50px;
+}
+.pontad{
+	margin-top: -70px;
+	margin-left: 450px;
+}
+.atacante{
+	margin-top: -130px;
+	margin-left: 255px;
+}
+

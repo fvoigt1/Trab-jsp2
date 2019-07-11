@@ -1,0 +1,49 @@
+	  body{
+			
+			background-image: url("../imagens/futebol.jpg");
+			
+			background-repeat: no-repeat;
+			height: 100%;
+			overflow: hidden;
+	  }
+
+	.registro {
+	width: 500px;
+	heigth: 900px;
+	margin-left: 100px;
+	margin-top: 80px;
+	text-align: center;
+	color: white;
+	
+}
+	.login{
+	width: 500px;
+	heigth: 900px;
+	margin-left: 700px;
+	margin-top: -319px;
+	text-align: center;
+	color: white;
+}  
+	
+	footer{
+        margin-top: 570px;
+        color: white;
+    }
+
+    footer p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+	
+	#btnCadastrar{
+	margin-top: 10px;
+}
+
+	#btnLogin{
+	margin-top: 10px;
+}
+
+	#Times{
+	margin-top: 10px;
+	}	
